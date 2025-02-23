@@ -7,9 +7,7 @@ AI Research Assistant is a powerful and intelligent research tool that leverages
 - **Multi-Agent Collaboration**: Utilizes CrewAI to coordinate specialized agents for research and writing.
 - **Customizable Research Scope**: Choose to include recent news and academic papers.
 - **Multiple Output Formats**: Generate reports in Markdown, HTML, or Plain Text.
-- **Streaming Output**: Real-time streaming of research results for an interactive experience.
 - **Dynamic Model Selection**: Select between GPT-3.5-Turbo, GPT-4o Mini, and OpenAI’s latest models.
-- **User-Provided API Keys**: Configure API keys for OpenAI and Serper Web Search dynamically.
 
 ## 🛠️ Tech Stack
 - **Frontend**: [Streamlit](https://streamlit.io/) for an intuitive UI.
