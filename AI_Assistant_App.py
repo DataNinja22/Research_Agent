@@ -41,6 +41,7 @@ def initialize_agents(llm, search_tool):
         verbose=True,
         memory=False,
         tools=[search_tool],
+        allow_delegation=True,  #for Multiagent 
         llm=llm
     )
     
@@ -51,6 +52,7 @@ def initialize_agents(llm, search_tool):
         verbose=True,
         memory=False,
         tools=[search_tool],
+        allow_delegation=False, #since last agent
         llm=llm
     )
     return research_agent, writer_agent
@@ -74,7 +76,7 @@ def run_research_pipeline(topic):
             expected_output="Detailed Bullet points of key facts, recent developments, and academic references."
             if include_academic 
             else "Bullet points of key facts and recent developments.",
-            async_execution=True
+            async_execution=False  #If you want totally sequentil process then make it False
         )
 
         writing_task = Task(
