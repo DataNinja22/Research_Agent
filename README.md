@@ -22,15 +22,14 @@ AI Research Assistant is a powerful and intelligent research tool that leverages
 2. **Agent Collaboration**:
    - A **Research Agent** gathers relevant information from web sources.
    - A **Writer Agent** structures the findings into a well-formatted report.
-3. **Real-Time Streaming**: Results are displayed dynamically as they are generated.
-4. **Download or Copy**: Easily save the final report in the desired format.
+3. Output is shown according to the choosen format
 
 ## 🚦 Installation & Setup
 1. **Clone the Repository**:
    ```sh
    git clone https://github.com/DataNinja22/Research_Agent.git
    ```
-2. **Create a Virtual Environment**:
+2. **Create and activate the Virtual Environment**:
    ```sh
    conda create -n Research_Agent python=3.11 -y
    conda activate Research_Agent
@@ -51,7 +50,7 @@ streamlit run app.py
 - Enter a **research topic**.
 - Choose whether to **include news articles** and **academic sources**.
 - Select an **output format** (Markdown, HTML, or Plain Text).
-- Click **Start Research** and watch the **real-time streaming** of research findings.
+- Click **Start Research** and get the output.
 
 ---
 
